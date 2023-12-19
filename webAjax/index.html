@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Greg</title>
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <div class="dark_wrapper">
+        <div class="form">
+          <div class="cw_input">
+            <p>Автор:</p>
+            <input type="text" id="author_input">
+          </div>
+          <div class="cw_input">
+            <p>Заголовок:</p>
+            <input type="text" id="title_input">
+          </div>
+          <div class="cw_input">
+            <p>Содержание:</p>
+            <input type="text" id="content_input">
+          </div>
+          <button id="confirm_button">Подтвердить</button>
+        </div>
+      </div>
+      <div class="main_container">
+        <div class="control_panel">
+          <div class="button_input"><button id="create_button">Создать пост</button></div>
+          <div class="button_input">
+            <button id="edit_button">Редактировать пост</button>
+            <input type="text" id="edit_input">
+          </div>
+          <div class="button_input">
+            <button id="delete_button">Удалить пост</button>
+            <input type="text" id="delete_input">
+          </div> 
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

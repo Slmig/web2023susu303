@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+  text-decoration: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  background-color: #F6F7F8;
+  font-family: 'Roboto', Courier, monospace;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+  line-height: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+/*--------------------*/
+
+.main_wrapper{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.main_container{
+  width: 20%;
+}
+.control_panel{
+  border-bottom: 2px solid;
+  margin-bottom: 40px;
+}
+.button_input{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.button_input input{
+  border: 2px solid;
+  background-color: rgb(240,240,240);
+  margin-left: 10px;
+  width: 40px;
+}
+.control_panel button{
+  font-size: 16px;
+  border: 2px solid;
+  padding: 5px;
+  background-color: rgb(200,200,200);
+  border-radius: 3px;
+}
+.post{
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.dark_wrapper{
+  background: rgba(102, 102, 102, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.form{
+  font-size: 20px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 500px;
+  height: 150px;
+  padding: 15px;
+  border: 3px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form button{
+  font-size: 16px;
+  border: 2px solid;
+  padding: 5px;
+  background-color: rgb(200,200,200);
+  border-radius: 3px;
+}
+.cw_input{
+  display: flex;
+  flex-direction: row;
+}
+.cw_input input{
+  font-size: 18px;
+  width: 100%;
+  background-color: rgb(200,200,200);
+}
+
+
